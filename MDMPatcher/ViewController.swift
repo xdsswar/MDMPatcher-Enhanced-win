@@ -61,18 +61,18 @@ class ViewController: NSViewController, USBWatcherDelegate {
         // Do any additional setup after loading the view.
     }
 
-    @IBOutlet weak var DeviceFirmware: NSTextField!
-    @IBOutlet weak var DeviceIMEI: NSTextField!
-    @IBOutlet weak var DeviceModel: NSTextField!
-    @IBOutlet weak var DeviceSN: NSTextField!
-    @IBOutlet weak var DeviceUUID: NSTextField!
+    @IBOutlet var DeviceFirmware: NSTextField!
+    @IBOutlet var DeviceIMEI: NSTextField!
+    @IBOutlet var DeviceModel: NSTextField!
+    @IBOutlet var DeviceSN: NSTextField!
+    @IBOutlet var DeviceUUID: NSTextField!
     override var representedObject: Any? {
         didSet {
         // Update the view, if already loaded.
         }
     }
 
-    @IBOutlet weak var PatchProgress: NSProgressIndicator!
+    @IBOutlet var PatchProgress: NSProgressIndicator!
     
     func getIMEI() -> String {
         let input = String(cString: getdeviceInformation()).data(using: .utf8)
@@ -80,8 +80,8 @@ class ViewController: NSViewController, USBWatcherDelegate {
         return imei
     }
     
-    @IBOutlet weak var progB: NSProgressIndicator!
-    @IBOutlet weak var PatchButton: NSButton!
+    @IBOutlet var progB: NSProgressIndicator!
+    @IBOutlet var PatchButton: NSButton!
     @IBAction func Patch(_ sender: Any) {
         PatchButton.isEnabled = false
         
