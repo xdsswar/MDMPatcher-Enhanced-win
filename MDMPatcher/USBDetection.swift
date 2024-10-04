@@ -228,7 +228,7 @@ extension io_object_t {
             return nil
         }
 
-        var umDict: Unmanaged<CFMutableDictionary>? = nil
+        var umDict: Unmanaged<CFMutableDictionary>?
         kr = IORegistryEntryCreateCFProperties(self as io_registry_entry_t, &umDict, kCFAllocatorDefault, 0)
 
 
