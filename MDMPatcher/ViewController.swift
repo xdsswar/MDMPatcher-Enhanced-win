@@ -363,7 +363,7 @@ extension FileManager {
         let basename = preferredName ?? UUID().uuidString
 
         var counter = 0
-        var createdSubdirectory: URL? = nil
+        var createdSubdirectory: URL?
         repeat {
             do {
                 let subdirName = counter == 0 ? basename : "\(basename)-\(counter)"
