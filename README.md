@@ -4,6 +4,15 @@ This patcher helps bypass MDM on iOS devices (iOS 15+ and 64-bit devices up to i
 
 <img src="https://github.com/fled-dev/MDMPatcher-Universal/blob/601144f6fa640c9d932ab51b52dd8637c32fc2df/screenshots/app.png" style="width:700px;">
 
+## Changes from the Original Repository
+In this fork, I’ve made the following improvements and bug fixes:
+- **Improved documentation:** Rewrote the instructions for better clarity, including detailed steps for patching and troubleshooting common issues.
+- **Bug fixes:**
+  - Replaced empty string comparisons with isEmpty: This improves performance by avoiding unnecessary string literal comparisons. 
+  - Removed redundant optional initialization: Swift automatically initializes optionals with nil, so explicitly initializing them with nil was redundant and cleaned up.
+  - Replaced weak @IBOutlets with strong references: Weak references were causing potential crashes or undefined behavior, so I replaced them with strong references to keep objects alive when needed.
+- **Additional troubleshooting section:** Added a "Typical Issues" section to help users troubleshoot errors such as app crashes, permission issues, and patching errors.
+
 ## Requirements
 - macOS 10.13+ (Intel/M1)
 - Compatible iOS device (64-bit, up to iPhone 13)
