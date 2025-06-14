@@ -2,7 +2,7 @@
 # MDMPatcher Enhanced
 This patcher helps bypass MDM on iOS devices (iOS 15+ and 64-bit devices up to iPhone 13) using macOS (10.13+). It allows the device to skip MDM configuration profiles, often required by corporations or institutions, without triggering errors during device setup.
 
-<img src="https://github.com/fled-dev/MDMPatcher-Universal/blob/601144f6fa640c9d932ab51b52dd8637c32fc2df/screenshots/app.png" style="width:700px;">
+<img src="https://github.com/fled-dev/MDMPatcher-Enhanced/blob/5dcac8faab83e63f7c37747e81cd92ac2221386f/screenshots/app.png" style="width:700px;">
 
 ## Changes from the Original Repository
 In this fork, I’ve made the following improvements and bug fixes:
