@@ -5,6 +5,7 @@ MDMPatcher Enhanced is a macOS tool that helps remove or bypass MDM (Mobile Devi
 <br><br>
 Need to return the device later? Simply reset it to factory settings, and the original MDM configuration will be fully restored — no trace left behind.
 
+## Application Preview
 <img src="https://github.com/fled-dev/MDMPatcher-Enhanced/blob/5dcac8faab83e63f7c37747e81cd92ac2221386f/screenshots/app.png" style="width:70%;">
 
 ## Changes from the Original Repository
