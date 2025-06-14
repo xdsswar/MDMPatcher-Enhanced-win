@@ -1,21 +1,20 @@
 
 # MDMPatcher Enhanced
-This patcher helps bypass MDM on iOS devices (iOS 15+ and 64-bit devices up to iPhone 13) using macOS (10.13+). It allows the device to skip MDM configuration profiles, often required by corporations or institutions, without triggering errors during device setup.
+MDMPatcher Enhanced is a macOS tool that helps remove or bypass MDM (Mobile Device Management) profiles from supervised iPhones and iPads. It's designed for users who need to regain control over devices that are locked by school, work, or institutional configurations. Just connect the device, run the app, and follow the on-screen steps — no terminal or jailbreaking required. Supports iOS 15 to 18.5+ and all devices from iPhone 5s to iPhone 16, plus all modern iPads.
+
+Need to return the device later? Simply reset it to factory settings, and the original MDM configuration will be fully restored — no trace left behind.
 
 <img src="https://github.com/fled-dev/MDMPatcher-Enhanced/blob/5dcac8faab83e63f7c37747e81cd92ac2221386f/screenshots/app.png" style="width:700px;">
 
 ## Changes from the Original Repository
 In this fork, I’ve made the following improvements and bug fixes:
 - **Improved documentation:** Rewrote the instructions for better clarity, including detailed steps for patching and troubleshooting common issues.
-- **Bug fixes:**
-  - Replaced empty string comparisons with isEmpty: This improves performance by avoiding unnecessary string literal comparisons. 
-  - Removed redundant optional initialization: Swift automatically initializes optionals with nil, so explicitly initializing them with nil was redundant and cleaned up.
-  - Replaced weak @IBOutlets with strong references: Weak references were causing potential crashes or undefined behavior, so I replaced them with strong references to keep objects alive when needed.
+- **Some bug fixes**
 - **Additional troubleshooting section:** Added a "Typical Issues" section to help users troubleshoot errors such as app crashes, permission issues, and patching errors.
 
 ## Requirements
-- macOS 10.13+ (Intel/M1)
-- Compatible iOS device (64-bit, up to iPhone 13)
+- macOS 10.13+ (Intel/Apple Silicon)
+- Supports 18.5+ and all devices from iPhone 5s to iPhone 16, plus all modern iPads
 - MDMPatcher Enhanced App
 - IPSW file for your specific device (download from [ipsw.me](https://ipsw.me))
 
