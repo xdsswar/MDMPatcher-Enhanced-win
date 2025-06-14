@@ -1,10 +1,11 @@
 
 # MDMPatcher Enhanced
+<img src="https://github.com/fled-dev/MDMPatcher-Enhanced/blob/931b3f9032d948c277611addd234dc5f304c88d3/screenshots/banner.png" style="width:100%">
 MDMPatcher Enhanced is a macOS tool that helps remove or bypass MDM (Mobile Device Management) profiles from supervised iPhones and iPads. It's designed for users who need to regain control over devices that are locked by school, work, or institutional configurations. Just connect the device, run the app, and follow the on-screen steps — no terminal or jailbreaking required. Supports iOS 15 to 18.5+ and all devices from iPhone 5s to iPhone 16, plus all modern iPads.
 
 Need to return the device later? Simply reset it to factory settings, and the original MDM configuration will be fully restored — no trace left behind.
 
-<img src="https://github.com/fled-dev/MDMPatcher-Enhanced/blob/5dcac8faab83e63f7c37747e81cd92ac2221386f/screenshots/app.png" style="width:700px;">
+<img src="https://github.com/fled-dev/MDMPatcher-Enhanced/blob/5dcac8faab83e63f7c37747e81cd92ac2221386f/screenshots/app.png" style="width:70%;">
 
 ## Changes from the Original Repository
 In this fork, I’ve made the following improvements and bug fixes:
@@ -43,13 +44,13 @@ In this fork, I’ve made the following improvements and bug fixes:
 ### Problem: Unable to Open MDMPatcher Enhanced
 You might encounter a security warning preventing the app from opening, as shown below.
 <br>
-<img src="https://github.com/fled-dev/MDMPatcher-Universal/blob/a224cb323b3cc203152437830bdb135ad4548b2d/screenshots/could_not_verify.png" style="height:400px;">
+<img src="https://github.com/fled-dev/MDMPatcher-Universal/blob/a224cb323b3cc203152437830bdb135ad4548b2d/screenshots/could_not_verify.png" style="width:40%;">
 <br>
 **Solution:**
 1. Right-click the app and select Open.
 2. If the app still won’t open, go to **System Settings > Privacy & Security** and under the Security section, allow the app by clicking Open Anyway.
 <br>
-<img src="https://github.com/fled-dev/MDMPatcher-Universal/blob/a224cb323b3cc203152437830bdb135ad4548b2d/screenshots/settings_blocked.png" style="height:400px;">
+<img src="https://github.com/fled-dev/MDMPatcher-Universal/blob/a224cb323b3cc203152437830bdb135ad4548b2d/screenshots/settings_blocked.png" style="width:60%;">
 
 ---
 
