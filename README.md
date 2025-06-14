@@ -2,7 +2,7 @@
 # MDMPatcher Enhanced
 <img src="https://github.com/fled-dev/MDMPatcher-Enhanced/blob/931b3f9032d948c277611addd234dc5f304c88d3/screenshots/banner.png" style="width:100%">
 MDMPatcher Enhanced is a macOS tool that helps remove or bypass MDM (Mobile Device Management) profiles from supervised iPhones and iPads. It's designed for users who need to regain control over devices that are locked by school, work, or institutional configurations. Just connect the device, run the app, and follow the on-screen steps — no terminal or jailbreaking required. Supports iOS 15 to 18.5+ and all devices from iPhone 5s to iPhone 16, plus all modern iPads.
-
+<br><br>
 Need to return the device later? Simply reset it to factory settings, and the original MDM configuration will be fully restored — no trace left behind.
 
 <img src="https://github.com/fled-dev/MDMPatcher-Enhanced/blob/5dcac8faab83e63f7c37747e81cd92ac2221386f/screenshots/app.png" style="width:70%;">
