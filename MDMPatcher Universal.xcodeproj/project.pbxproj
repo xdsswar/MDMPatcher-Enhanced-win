@@ -449,7 +449,9 @@
 					"$(SRCROOT)/common",
 					/usr/local/include,
 					/opt/homebrew/Cellar/,
-					/opt/homebrew/Cellar/libplist/2.2.0/include,
+					/opt/homebrew/Cellar/libplist/2.7.0/include,
+					/opt/homebrew/Cellar/libirecovery/1.2.1/include,
+					/opt/homebrew/Cellar/libimobiledevice/1.3.0_3/include,
 				);
 				INFOPLIST_FILE = MDMPatcher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -486,7 +488,9 @@
 					"$(SRCROOT)/common",
 					/usr/local/include,
 					/opt/homebrew/Cellar/,
-					/opt/homebrew/Cellar/libplist/2.2.0/include,
+					/opt/homebrew/Cellar/libplist/2.7.0/include,
+					/opt/homebrew/Cellar/libirecovery/1.2.1/include,
+					/opt/homebrew/Cellar/libimobiledevice/1.3.0_3/include,
 				);
 				INFOPLIST_FILE = MDMPatcher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
