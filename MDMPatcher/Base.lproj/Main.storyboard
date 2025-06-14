@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="19529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="23727"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -12,11 +12,11 @@
                 <application id="hnw-xV-0zn" sceneMemberID="viewController">
                     <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
                         <items>
-                            <menuItem title="MDMPatcher Universal" id="1Xt-HY-uBw">
+                            <menuItem title="MDMPatcher Enhanced" id="1Xt-HY-uBw">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="MDMPatcher Universal" systemMenu="apple" id="uQy-DD-JDr">
+                                <menu key="submenu" title="MDMPatcher Enhanced" systemMenu="apple" id="uQy-DD-JDr">
                                     <items>
-                                        <menuItem title="About MDMPatcher Universal" id="5kV-Vb-QxS">
+                                        <menuItem title="About MDMPatcher Enhanced" id="5kV-Vb-QxS">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
@@ -30,7 +30,7 @@
                                             <menu key="submenu" title="Services" systemMenu="services" id="hz9-B4-Xy5"/>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
-                                        <menuItem title="Hide MDMPatcher Universal" keyEquivalent="h" id="Olw-nP-bQN">
+                                        <menuItem title="Hide MDMPatcher Enhanced" keyEquivalent="h" id="Olw-nP-bQN">
                                             <connections>
                                                 <action selector="hide:" target="Ady-hI-5gd" id="PnN-Uc-m68"/>
                                             </connections>
@@ -48,7 +48,7 @@
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
-                                        <menuItem title="Quit MDMPatcher Universal" keyEquivalent="q" id="4sb-4s-VLi">
+                                        <menuItem title="Quit MDMPatcher Enhanced" keyEquivalent="q" id="4sb-4s-VLi">
                                             <connections>
                                                 <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
                                             </connections>
@@ -661,7 +661,7 @@
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="Help" systemMenu="help" id="F2S-fz-NVQ">
                                     <items>
-                                        <menuItem title="MDMPatcher Universal Help" keyEquivalent="?" id="FKE-Sm-Kum">
+                                        <menuItem title="MDMPatcher Enhanced Help" keyEquivalent="?" id="FKE-Sm-Kum">
                                             <connections>
                                                 <action selector="showHelp:" target="Ady-hI-5gd" id="y7X-2Q-9no"/>
                                             </connections>
@@ -685,7 +685,7 @@
         <scene sceneID="R2V-B0-nI4">
             <objects>
                 <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
-                    <window key="window" title="MDMPatcher Universal" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" titlebarAppearsTransparent="YES" id="IQv-IB-iLA">
+                    <window key="window" title="MDMPatcher Enhanced" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" titlebarAppearsTransparent="YES" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="196" y="240" width="480" height="213"/>
@@ -722,7 +722,7 @@
                                     <action selector="Patch:" target="XfG-lQ-9wD" id="MKF-Qr-xsi"/>
                                 </connections>
                             </button>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ZHM-HH-lGx">
+                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ZHM-HH-lGx">
                                 <rect key="frame" x="18" y="256" width="4" height="20"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" id="mqP-Fm-Sqh">
                                     <font key="font" metaFont="systemBold" size="17"/>
@@ -733,7 +733,7 @@
                             <progressIndicator maxValue="100" style="bar" translatesAutoresizingMaskIntoConstraints="NO" id="b11-jU-nx2">
                                 <rect key="frame" x="20" y="46" width="535" height="20"/>
                             </progressIndicator>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Pin-TG-cD0">
+                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Pin-TG-cD0">
                                 <rect key="frame" x="70" y="177" width="87" height="16"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="Device Model" id="KaS-eN-JrQ">
                                     <font key="font" metaFont="system"/>
@@ -741,7 +741,7 @@
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="dDp-Mm-4Lm">
+                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="dDp-Mm-4Lm">
                                 <rect key="frame" x="82" y="153" width="75" height="16"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="iOS Version" id="Xj8-mh-AKN">
                                     <font key="font" metaFont="system"/>
@@ -749,7 +749,7 @@
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="7m6-EF-3fp">
+                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="7m6-EF-3fp">
                                 <rect key="frame" x="127" y="129" width="30" height="16"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="IMEI" id="7Gf-To-MD4">
                                     <font key="font" metaFont="system"/>
@@ -757,7 +757,7 @@
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="4Bt-Hm-avT">
+                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="4Bt-Hm-avT">
                                 <rect key="frame" x="121" y="105" width="36" height="16"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="UUID" id="BZH-9E-k4I">
                                     <font key="font" metaFont="system"/>
@@ -765,7 +765,7 @@
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="q1Y-j8-aJH">
+                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="q1Y-j8-aJH">
                                 <rect key="frame" x="135" y="81" width="22" height="16"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="SN" id="yhk-Q6-Igw">
                                     <font key="font" metaFont="system"/>
@@ -773,7 +773,7 @@
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="sTS-7y-SqI">
+                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="sTS-7y-SqI">
                                 <rect key="frame" x="203" y="177" width="31" height="16"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" placeholderString="XXX" id="8ho-8x-0V2">
                                     <font key="font" metaFont="system"/>
@@ -781,7 +781,7 @@
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="4My-yB-nTC">
+                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="4My-yB-nTC">
                                 <rect key="frame" x="203" y="153" width="29" height="16"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" placeholderString="xx.x" id="0Ae-1k-St7">
                                     <font key="font" metaFont="system"/>
@@ -789,7 +789,7 @@
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="fKL-wP-qLb">
+                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="fKL-wP-qLb">
                                 <rect key="frame" x="203" y="129" width="112" height="16"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" placeholderString="xxxxxxxxxxxxxxxx" id="s4V-A2-GLF">
                                     <font key="font" metaFont="system"/>
@@ -797,7 +797,7 @@
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="mfX-mU-KvD">
+                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="mfX-mU-KvD">
                                 <rect key="frame" x="203" y="105" width="301" height="16"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" placeholderString="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" id="B0c-F1-9P4">
                                     <font key="font" metaFont="system"/>
@@ -805,7 +805,7 @@
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="gCw-Fa-e6J">
+                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="gCw-Fa-e6J">
                                 <rect key="frame" x="203" y="81" width="85" height="16"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" placeholderString="xxxxxxxxxxxx" id="St6-bE-KGp">
                                     <font key="font" metaFont="system"/>
@@ -813,19 +813,19 @@
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Umc-f2-cPE">
-                                <rect key="frame" x="30" y="256" width="190" height="20"/>
+                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Umc-f2-cPE">
+                                <rect key="frame" x="30" y="256" width="222" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" lineBreakMode="clipping" title="MDMPatcher Universal" id="dqP-5j-cTd">
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="MDMPatcher Enhanced" id="dqP-5j-cTd">
                                     <font key="font" metaFont="systemBold" size="17"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Pt-fy-gwR">
-                                <rect key="frame" x="30" y="232" width="326" height="16"/>
+                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Pt-fy-gwR">
+                                <rect key="frame" x="30" y="232" width="264" height="16"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" lineBreakMode="clipping" title="iOS 15 support | iPhone 5S - 13 | universal support" id="qTM-kz-IZu">
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Full Device &amp; OS Compatibility | iOS 18.5" id="qTM-kz-IZu">
                                     <font key="font" metaFont="systemBold"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>

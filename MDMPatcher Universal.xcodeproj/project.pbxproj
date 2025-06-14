@@ -70,7 +70,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E45B209526C57749002F4709 /* MDMPatcher Universal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MDMPatcher Universal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45B209526C57749002F4709 /* MDMPatcher Enhanced.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MDMPatcher Enhanced.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E45B209826C57749002F4709 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E45B209A26C57749002F4709 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E45B209C26C5774B002F4709 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -154,7 +154,7 @@
 		E45B209626C57749002F4709 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E45B209526C57749002F4709 /* MDMPatcher Universal.app */,
+				E45B209526C57749002F4709 /* MDMPatcher Enhanced.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -215,9 +215,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E45B209426C57749002F4709 /* MDMPatcher Universal */ = {
+		E45B209426C57749002F4709 /* MDMPatcher Enhanced */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E45B20A526C5774B002F4709 /* Build configuration list for PBXNativeTarget "MDMPatcher Universal" */;
+			buildConfigurationList = E45B20A526C5774B002F4709 /* Build configuration list for PBXNativeTarget "MDMPatcher Enhanced" */;
 			buildPhases = (
 				E45B209126C57749002F4709 /* Sources */,
 				E45B209226C57749002F4709 /* Frameworks */,
@@ -228,13 +228,13 @@
 			);
 			dependencies = (
 			);
-			name = "MDMPatcher Universal";
+			name = "MDMPatcher Enhanced";
 			packageProductDependencies = (
 				E46C15F126D83EDA001D6349 /* RNCryptor */,
 				E4E97CF026D937A00045ECD1 /* ZIPFoundation */,
 			);
 			productName = iMDMActivatePro;
-			productReference = E45B209526C57749002F4709 /* MDMPatcher Universal.app */;
+			productReference = E45B209526C57749002F4709 /* MDMPatcher Enhanced.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -252,7 +252,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E45B209026C57749002F4709 /* Build configuration list for PBXProject "MDMPatcher Universal" */;
+			buildConfigurationList = E45B209026C57749002F4709 /* Build configuration list for PBXProject "MDMPatcher Enhanced" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -269,7 +269,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E45B209426C57749002F4709 /* MDMPatcher Universal */,
+				E45B209426C57749002F4709 /* MDMPatcher Enhanced */,
 			);
 		};
 /* End PBXProject section */
@@ -515,7 +515,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E45B209026C57749002F4709 /* Build configuration list for PBXProject "MDMPatcher Universal" */ = {
+		E45B209026C57749002F4709 /* Build configuration list for PBXProject "MDMPatcher Enhanced" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E45B20A326C5774B002F4709 /* Debug */,
@@ -524,7 +524,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E45B20A526C5774B002F4709 /* Build configuration list for PBXNativeTarget "MDMPatcher Universal" */ = {
+		E45B20A526C5774B002F4709 /* Build configuration list for PBXNativeTarget "MDMPatcher Enhanced" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E45B20A626C5774B002F4709 /* Debug */,

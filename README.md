@@ -1,5 +1,5 @@
 
-# MDMPatcher Universal
+# MDMPatcher Enhanced
 This patcher helps bypass MDM on iOS devices (iOS 15+ and 64-bit devices up to iPhone 13) using macOS (10.13+). It allows the device to skip MDM configuration profiles, often required by corporations or institutions, without triggering errors during device setup.
 
 <img src="https://github.com/fled-dev/MDMPatcher-Universal/blob/601144f6fa640c9d932ab51b52dd8637c32fc2df/screenshots/app.png" style="width:700px;">
@@ -16,7 +16,7 @@ In this fork, I’ve made the following improvements and bug fixes:
 ## Requirements
 - macOS 10.13+ (Intel/M1)
 - Compatible iOS device (64-bit, up to iPhone 13)
-- MDMPatcher Universal App
+- MDMPatcher Enhanced App
 - IPSW file for your specific device (download from [ipsw.me](https://ipsw.me))
 
 ## Instructions
@@ -41,7 +41,7 @@ In this fork, I’ve made the following improvements and bug fixes:
 - After reboot, follow the remaining setup instructions on the device.
 
 ## Typical Issues
-### Problem: Unable to Open MDMPatcher Universal
+### Problem: Unable to Open MDMPatcher Enhanced
 You might encounter a security warning preventing the app from opening, as shown below.
 <br>
 <img src="https://github.com/fled-dev/MDMPatcher-Universal/blob/a224cb323b3cc203152437830bdb135ad4548b2d/screenshots/could_not_verify.png" style="height:400px;">
@@ -55,7 +55,7 @@ You might encounter a security warning preventing the app from opening, as shown
 ---
 
 ### Problem: App Instantly Crashes on Launch
-If the MDMPatcher Universal app crashes immediately upon opening, this is likely due to macOS's System Integrity Protection (SIP) blocking the app.
+If the MDMPatcher Enhanced app crashes immediately upon opening, this is likely due to macOS's System Integrity Protection (SIP) blocking the app.
 
 **Solution:**
 1. Boot your Mac into Recovery Mode.
