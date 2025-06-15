@@ -509,5 +509,3 @@ flowchart TD
 | **Network Connectivity** | Device validation and updates | Offline mode with limited functionality |
 | **iTunes/Music App** | Device driver installation | Manual driver installation required |
 | **Xcode** | Advanced debugging and development | Runtime-only operation possible |
-
-This comprehensive dependency table covers all major software components required for MDMPatcher Enhanced to function properly, from core iOS communication libraries to development and runtime dependencies.
