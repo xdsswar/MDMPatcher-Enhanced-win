@@ -1,21 +1,22 @@
 
 # MDMPatcher Enhanced
-This patcher helps bypass MDM on iOS devices (iOS 15+ and 64-bit devices up to iPhone 13) using macOS (10.13+). It allows the device to skip MDM configuration profiles, often required by corporations or institutions, without triggering errors during device setup.
+<img src="https://github.com/fled-dev/MDMPatcher-Enhanced/blob/931b3f9032d948c277611addd234dc5f304c88d3/screenshots/banner.png" style="width:100%">
+MDMPatcher Enhanced is a macOS tool that helps remove or bypass MDM (Mobile Device Management) profiles from supervised iPhones and iPads. It's designed for users who need to regain control over devices that are locked by school, work, or institutional configurations. Just connect the device, run the app, and follow the on-screen steps — no terminal or jailbreaking required. Supports iOS 15 to 18.5+ and all devices from iPhone 5s to iPhone 16, plus all modern iPads.
+<br><br>
+Need to return the device later? Simply reset it to factory settings, and the original MDM configuration will be fully restored — no trace left behind.
 
-<img src="https://github.com/fled-dev/MDMPatcher-Enhanced/blob/5dcac8faab83e63f7c37747e81cd92ac2221386f/screenshots/app.png" style="width:700px;">
+## Application Preview
+<img src="https://github.com/fled-dev/MDMPatcher-Enhanced/blob/5dcac8faab83e63f7c37747e81cd92ac2221386f/screenshots/app.png" style="width:70%;">
 
 ## Changes from the Original Repository
 In this fork, I’ve made the following improvements and bug fixes:
 - **Improved documentation:** Rewrote the instructions for better clarity, including detailed steps for patching and troubleshooting common issues.
-- **Bug fixes:**
-  - Replaced empty string comparisons with isEmpty: This improves performance by avoiding unnecessary string literal comparisons. 
-  - Removed redundant optional initialization: Swift automatically initializes optionals with nil, so explicitly initializing them with nil was redundant and cleaned up.
-  - Replaced weak @IBOutlets with strong references: Weak references were causing potential crashes or undefined behavior, so I replaced them with strong references to keep objects alive when needed.
+- **Some bug fixes**
 - **Additional troubleshooting section:** Added a "Typical Issues" section to help users troubleshoot errors such as app crashes, permission issues, and patching errors.
 
 ## Requirements
-- macOS 10.13+ (Intel/M1)
-- Compatible iOS device (64-bit, up to iPhone 13)
+- macOS 10.13+ (Intel/Apple Silicon)
+- Supports 18.5+ and all devices from iPhone 5s to iPhone 16, plus all modern iPads
 - MDMPatcher Enhanced App
 - IPSW file for your specific device (download from [ipsw.me](https://ipsw.me))
 
@@ -44,13 +45,13 @@ In this fork, I’ve made the following improvements and bug fixes:
 ### Problem: Unable to Open MDMPatcher Enhanced
 You might encounter a security warning preventing the app from opening, as shown below.
 <br>
-<img src="https://github.com/fled-dev/MDMPatcher-Universal/blob/a224cb323b3cc203152437830bdb135ad4548b2d/screenshots/could_not_verify.png" style="height:400px;">
+<img src="https://github.com/fled-dev/MDMPatcher-Universal/blob/a224cb323b3cc203152437830bdb135ad4548b2d/screenshots/could_not_verify.png" style="width:40%;">
 <br>
 **Solution:**
 1. Right-click the app and select Open.
 2. If the app still won’t open, go to **System Settings > Privacy & Security** and under the Security section, allow the app by clicking Open Anyway.
 <br>
-<img src="https://github.com/fled-dev/MDMPatcher-Universal/blob/a224cb323b3cc203152437830bdb135ad4548b2d/screenshots/settings_blocked.png" style="height:400px;">
+<img src="https://github.com/fled-dev/MDMPatcher-Universal/blob/a224cb323b3cc203152437830bdb135ad4548b2d/screenshots/settings_blocked.png" style="width:60%;">
 
 ---
 
